@@ -9,16 +9,23 @@ posts=[
         'date_posted': 'April 18, 2020'
     },
     {
-        'author':'Ashwin raj',
+        'author':'Ashwin Raj',
         'title':'Machine Learning for Dummies',
         'content':'Second Post',
-        'date_posted':'April 21, 2020'
+        'date_posted':'August 03, 2020'
     },
     {
-        'author':'Sandra',
+        'author':'Dipu Sreedhar',
+        'title':'Demystifying the Full Stack',
+        'content':'Second Post',
+        'date_posted':'December 05, 2020'
+        },
+        {
+        'author':'Sandra Ann Alex',
         'title':'Root Canal the right way',
         'content':'Third Post',
-        'date_posted':'September 22, 2020'}
+        'date_posted':'September 13, 2020'
+        }
 ]
 
 @app.route("/")
@@ -32,3 +39,4 @@ def about():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
