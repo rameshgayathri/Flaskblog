@@ -12,7 +12,13 @@ posts=[
         'author':'Ashwin raj',
         'title':'Machine Learning',
         'content':'Second Post',
-        'date_posted':'April 21, 2020'}
+        'date_posted':'April 21, 2020'
+    },
+    {
+        'author':'Sandra',
+        'title':'Root Canal',
+        'content':'Third Post',
+        'date_posted':'September 22, 2020'}
 ]
 
 @app.route("/")
